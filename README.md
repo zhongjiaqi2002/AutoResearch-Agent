@@ -34,7 +34,7 @@ A multi-agent financial analysis system based on LangGraph, integrating Text2SQL
 │  │   └─────────┴─────────┴─────────┴─────────┴────────┘    │  │
 │  └───────────────────────────────────────────────────────────┘  │
 │           ▼           ▼           ▼           ▼                 │
-│     [ SQLite ]  [ Python ]  [ DocMind ]  [ 博查API ]            │
+│     [ SQLite ]  [ Python ]  [ DocMind ]  [ Bocha API ]            │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
