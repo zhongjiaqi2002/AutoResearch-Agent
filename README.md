@@ -20,21 +20,21 @@ A multi-agent financial analysis system based on LangGraph, integrating Text2SQL
 │                        FastAPI Backend                          │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌───────────────────────────────────────────────────────────┐  │
-│  │                 LangGraph Orchestrator                     │  │
+│  │                 LangGraph Orchestrator                    │  │
 │  │                                                           │  │
 │  │   Router ──▶ Planner ──▶ Executor ──▶ Reflector ──▶ Critic│  │
 │  │     │                       │            │                │  │
 │  │     └───────────────────────┼────────────┘                │  │
 │  │                             ▼                             │  │
-│  │   ┌─────────────────────────────────────────────────┐    │  │
-│  │   │               Tool Registry                      │    │  │
-│  │   ├─────────┬─────────┬─────────┬─────────┬────────┤    │  │
-│  │   │Text2SQL │  Code   │  File   │   Web   │  RAG   │    │  │
-│  │   │  Tool   │Executor │ Parser  │ Search  │ Search │    │  │
-│  │   └─────────┴─────────┴─────────┴─────────┴────────┘    │  │
+│  │   ┌────────────────────────────────────────────────┐      │  │
+│  │   │               Tool Registry                    │      │  │
+│  │   ├─────────┬─────────┬─────────┬─────────┬────────┤      │  │
+│  │   │Text2SQL │  Code   │  File   │   Web   │  RAG   │      │  │
+│  │   │  Tool   │Executor │ Parser  │ Search  │ Search │      │  │
+│  │   └─────────┴─────────┴─────────┴─────────┴────────┘      │  │
 │  └───────────────────────────────────────────────────────────┘  │
 │           ▼           ▼           ▼           ▼                 │
-│     [ SQLite ]  [ Python ]  [ DocMind ]  [ Bocha API ]            │
+│     [ SQLite ]  [ Python ]  [ DocMind ]  [ Bocha API ]          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
